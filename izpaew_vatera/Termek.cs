@@ -13,7 +13,7 @@ namespace izpaew_vatera
         public int Cikkszam { get; set; }
         public int CompareTo(object obj)
         {
-            return Nev.CompareTo(obj);
+            return Nev.CompareTo(((Termek)obj).Nev);
         }
     }
 }

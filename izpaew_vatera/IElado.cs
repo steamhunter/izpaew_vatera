@@ -12,5 +12,8 @@ namespace izpaew_vatera
         IElado KontaktSzemely { get; set; }
         int Ertekeles { get; set; }
         LinkedList<Termek> TermekLista { get; set; }
+        string Nev { get; set; }
+
+        void OnGiftRecieved();
     }
 }
